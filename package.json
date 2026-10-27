@@ -1,0 +1,14 @@
+{
+  "name": "maths-expo-feedback-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anonymous QR-based school exhibition feedback with organiser dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "check": "node --check server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "pg": "^8.13.1"
+  }
+}
